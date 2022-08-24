@@ -1,6 +1,6 @@
 # Blaze crash game web srapping with Puppeteer
 
-A simple functionality for getting crash values until you close the server.
+A simple functionality for getting crash values from [Blaze](https://blaze.com/pt/games/crash) until you close the server.
 
 # Getting started
 
