@@ -28,7 +28,7 @@ npm install
 
 ## Server
 
-To start scrapping the values, go to "scrap" folder and run the command below. It will run and check for values each 10 seconds and until you close the server. You can close with with the command "Ctrl + c" or similar. Make sure you removed "type": "module" from package.json for this.
+To start scrapping the values, go to `./scrap` folder and run the command below. It will run and check for values each 10 seconds and until you close the server. You can close with with the command "Ctrl + c" or similar. Make sure you removed "type": "module" from package.json for this.
 
 ```
 cd scrap
@@ -37,13 +37,13 @@ node server
 
 ## Simulate
 
-First, make sure you have "type": "module" in your package.json. Then navigate to 'simulate' folder for running some simple bet simulations. Then run the command below.
+First, make sure you have "type": "module" in your package.json. Then navigate to `./simulate` folder for running some simple bet simulations. Then run the command below.
 
 Inside 'data.js' should be an array of objects extracted from the server scrap data. 
 'entries.js' will just get the values from each entry.
 
 ```
-cd scrap
+cd simulate
 node index
 ```
 
